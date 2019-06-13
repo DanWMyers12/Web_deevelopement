@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width:100%;
+}
+
+body{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin:0;
+  background-color:#aaaadd;
+  color:#000000;
+}
+header.unified{
+  height:25vh;
+  width:100vw;
+  background-size:cover;
+  background-position: top center;
+  background-color:#ffffff;
+  margin:0 0 0 0;
+  
+}
+
+header.unified h1{
+  font-size:2.5em;
+  color:#FFF;
+}
+
+header{
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+
+header.unified img{
+  height:18vh;
+  width:70vw;
+  margin:0 25vw 0 5vw;
+  
+}
+
+#spacer{
+  height:3em;
+}
+
+main{
+  background-color: #aaaadd
+}
+
+main img{
+  max-height: 20vw;
+  border:.5em solid grey;
+}
+
+section.info{
+  margin:0 2em;
+}
+
+section.topic{
+  margin:2em .5em;
+}
+
+section.topic img{
+  float:right;
+  margin:.25em;
+}
+
+
+.topic_b img{
+  float:left;
+  margin:.25em;
+}
+
+ul{
+  list-style-type: none
+  
+}
+
+button{
+  border-radius:100%;
+}
+
+#lycall{
+  display:none;
+  overflow:hidden;
+}
+#urocl{
+  display:none;
+  overflow:hidden;
+}
+#vulpl{
+  display:none;
+  overflow:hidden;
+}
+
+nav {
+  height:5vw;
+  width:100vw;
+  background-color:#ffffff;
+  margin:2em 0 0 0 ;
+}
+
+#navlayout {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+nav section{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+nav section a:link{
+  color:#000;
+}
+nav section a:hover{
+  color:green;
+}
+nav section a:visited{
+  color:#222;
+}
+
+footer{
+  height:2em;
+  background-color:#ffffff;
+}
+footer img{
+  max-height:2em;
+}
+footer h6{
+  height:.5em;
+  padding:0;
+  padding-left:.5em;
+  margin:0;
+  float:right;
+}

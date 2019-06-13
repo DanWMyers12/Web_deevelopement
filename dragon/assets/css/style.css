@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width:100%;
+}
+
+body{
+  font-family: 'Helvetica', sans-serif;
+  margin:0;
+  margin-left:.5em;
+  background-color:#000000;
+  color:#dddddd;
+}
+header.unified{
+  height:20vh;
+  width:100vw;
+  background-size:cover;
+  background-position: top center;
+  background-color:#dedede;
+}
+
+header.unified img{
+  height:18vh;
+  width:90vw;
+  
+}
+
+#htext {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+header.unified h1{
+  font-size:2.5em;
+  color:#FFF;
+  margin:0 .5em;
+  padding-top:1em;
+  position:center center;
+}
+.container img{
+  padding-left:.25em;
+  width:45vw;
+  max-height: 50vw;
+}
+
+main ul{
+  padding:.5em;
+  margin:.5em;
+}
+main li{
+  padding-top:.5em;
+  margin-top:.5em;
+  background-color: #000018;
+}
+
+table{
+  padding-top:.5em;
+  margin:.5em;
+  background-color: #000018;
+}
+
+nav {
+  height:4em;
+  width:100vw;
+  background-size:cover;
+  background-position: top center;
+  background-color:#dedede;
+  padding-bottom:0;
+}
+
+#navlayout {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+nav section{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+nav section a:link{
+  color:#000;
+}
+nav section a:hover{
+  color:green;
+}
+nav section a:visited{
+  color:#222;
+}
+
+
+footer img{
+  max-height:2em;
+}
+footer h6{
+  height:.5em;
+  padding:0;
+  padding-left:.5em;
+  margin:0;
+}

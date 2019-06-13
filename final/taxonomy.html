@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Because Foxes!</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Foxes are a unique and beautiful small predator whose proliferation and adaptability are exceptional. Join us in supporting researcha and rescue work aiding these magnificent creatures."/>
+    <meta name="author" content="Dan Myers"/>
+    <meta name="robots" content="noindex"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <script>
+        $(document).ready(function() {
+  $('header').hide().slideDown(3000);
+});
+    </script>
+    
+</head>
+
+<body>
+    <header class="unified">
+        <h1>
+            <a href="https://preview.c9users.io/dmyers30/dmyers-ifscfall2018/final/index.html">
+                        <img src="assets/img/fox_logo.png" alt="Because Foxes! logo"/>Because Foxes!</a></h1>
+    </header>
+    <main>
+        <section class="info">
+            <h2>Classification/taxonomy</h2>
+            <p>Foxes belong to several genera in the Canid family. Here is the taxonomy of foxes, according to Integrated Taxonomic Information System (ITIS):</p>
+            <section class="info">
+                <ul>
+                    <li>Kingdom: Animalia</li>
+                    <li>Subkingdom: Bilateria</li>
+                    <li>Infrakingdom: Deuterostomia</li>
+                    <li>Phylum: Chordata</li>
+                    <li>Subphylum: Vertebrata</li>
+                    <li>Infraphylum: Gnathostomata</li>
+                    <li>Superclass: Tetrapoda</li>
+                    <li>Class: Mammalia</li>
+                    <li>Subclass: Theria</li>
+                    <li>Infraclass: Eutheria</li>
+                    <li>Order: Carnivora</li>
+                    <li>Suborder: Caniformia</li>
+                    <li>Family: Canidae</li>
+                    <li>Genus/species: Cerdocyon thous (crab-eating fox)</li>
+                    <li>Genus: Lycalopex<button id="lycal">+</button></li>
+                    <li>
+                        <ul id="lycall">
+                            <li>Lycalopex culpaeus (culpeo)</li>
+                            <li>Lycalopex fulvipes (Darwin's fox)</li>
+                            <li>Lycalopex griseus (South American gray fox)</li>
+                            <li>Lycalopex gymnocercus (pampas fox)</li>
+                            <li>Subphylum: Vertebrata</li>
+                            <li>Infraphylum: Gnathostomata</li>
+                            <li>Lycapolex sechurae (Sechuran fox)</li>
+                            <li>Lycalopex vetulus (hoary fox)</li>
+                            <li>Genus/species: Otocyon megalotis (bat-eared fox)</li>
+
+                        </ul>
+                    </li>
+                    <li>Genus: Urocyon<button id="uroc">+</button></li>
+                    <li>
+                        <ul id="urocl">
+                            <li>Urocyon cinereoargenteus (gray fox)
+                            <li>Urocyon littoralis (island gray fox)
+                        </ul>
+                    </li>
+                    <li>Genus: Vulpes<button id="vulp">+</button></li>
+                                    <li>
+                                        <ul id="vulpl">
+                                            <li>Vulpes bengalensis (Bengal fox)
+                                            <li>Vulpes cana (Blandford's fox)
+                                            <li>Vulpes chama (Cape fox)
+                                            <li>Vulpes corsac (Corsac fox)
+                                            <li>Vulpes ferrilata (Tibetan fox)
+                                            <li>Vulpes lagopus (Arctic fox)
+                                            <li>Vulpes macrotis (kit fox)
+                                            <li>Vulpes pallida (pale fox)
+                                            <li>Vulpes rueppellii (Rüppel's fox)
+                                            <li>Vulpes velox (swift fox)
+                                            <li>Vulpes vulpes (red fox)
+                                            <li>Vulpes zerda (fennec fox)
+                                        </ul>
+                                    </li>
+
+                 </ul>
+            </section>
+            </section>
+</main>
+        <nav>
+        <div id="navlayout">
+            <section>
+                <a href="https://preview.c9users.io/dmyers30/dmyers-ifscfall2018/final/register.html">Register</a>
+                <a href="mailto:myersdwusmc@gmail.com">Report Bugs</a>
+                <a href="https://www.britannica.com/animal/fox-mammal">Supporting Data</a>
+            </section>
+            <section>
+                <a href="https://preview.c9users.io/dmyers30/dmyers-ifscfall2018/final/index.html">Main</a>
+                <a href="https://preview.c9users.io/dmyers30/dmyers-ifscfall2018/final/taxonomy.html">Taxonomy</a>
+                <a href="https://en.wikipedia.org/wiki/Fox">Wikipedia</a>
+            </section>
+        </div>
+    </nav>
+    
+    
+    <footer role="contentinfo">
+        <img src="assets/img/fox_logo2.png" alt="Foxeslogo"/>
+        <h6>&copy; 2018 Dan Myers</h6>
+    </footer>
+<script>
+    (
+        document.getElementById('lycal').onclick = function() {
+        document.getElementById('lycal').classList.toggle("active")
+        if (document.getElementById('lycall').style.display === "none") {
+            document.getElementById('lycall').style.display = "block"
+        }
+        else {
+            document.getElementById('lycall').style.display = "none"
+        }
+
+    });
+    (
+        document.getElementById('uroc').onclick = function() {
+        if (document.getElementById('urocl').style.display === "none") {
+            document.getElementById('urocl').style.display = "block"
+        }
+        else {
+            document.getElementById('urocl').style.display = "none"
+        }
+
+    });
+    (
+        document.getElementById('vulp').onclick = function() {
+        if (document.getElementById('vulpl').style.display === "none") {
+            document.getElementById('vulpl').style.display = "block"
+        }
+        else {
+            document.getElementById('vulpl').style.display = "none"
+        }
+
+    });
+</script>
+</body>
